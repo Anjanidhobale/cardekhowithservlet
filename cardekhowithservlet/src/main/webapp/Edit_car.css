@@ -1,0 +1,164 @@
+@charset "ISO-8859-1";
+*{
+    padding : 0px;
+    margin : 0px;
+    box-sizing : border-box;
+}
+nav{
+    padding : 1% 1%;
+    background-color : black;
+    position : sticky;
+    top : 0px;
+}
+ul{
+    margin-left : 50%;
+    margin-top: -45px;
+}
+
+nav ul li{
+    display : inline-block;
+    margin-left : 2%;
+    
+}
+nav ul li a{
+    color : black;
+    text-decoration : none;
+    padding : 10px 10px;
+    background-color : transparent;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+li a:hover{
+    color: red;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px white;
+}
+section{
+    width : 100%;
+    height : 100%;
+}
+#sec1{
+    background-image : url('./car1.jpg');
+    background-size : cover;
+    background-repeat : no-repeat;
+    position : absolute;
+    z-index : -1;
+    background-attachment : scroll;
+}
+#logo{
+    margin: 1% 1%;
+    color: aliceblue;
+    display: inline-block;
+}
+#logo:hover{
+    box-shadow: 0px 0px 7px whitesmoke;
+    font-weight: bold;
+}
+#sec2 #div1 {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 150px;
+    width: 200px;
+    margin: 250px 565px;
+}
+form h3{
+    color: white;
+}
+
+#sec2 #div {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 150px;
+    width: 200px;
+    margin: 40px 565px;
+}
+
+#div form {
+    border: 5px double;
+    padding: 15px 50px;
+    background-color: rgba(53, 52, 52, 0.3);
+}
+
+#div1 form{
+    border: 5px double;
+    padding: 15px 50px;
+    background-color: rgba(53, 52, 52, 0.3);
+}
+td{
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+input{
+    height: 30px;
+    width: 230px;
+    outline: none;
+    border: none;
+    color: red;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+    box-shadow: 0px 0px 3px whitesmoke;
+}
+input:hover{
+    box-shadow: 0px 0px 7px whitesmoke;
+    
+}
+input[type="submit"]{
+    border-radius: 20px;
+    height: 30px;
+    width: 80px;
+    margin: 10px 70px 6px 70px;
+    color: white;
+
+}
+input[type="submit"]:hover {
+    /* color: red; */
+    border-radius: 20px;
+    box-shadow: 0px 0px 7px white;
+    font-weight: bold;
+}
+form h4{
+    color: white;
+}
+form h4 a{
+    text-decoration: none;
+    color: rgb(9, 255, 0);
+}
+#table{
+    margin: 50px 400px;
+    background-color: transparent;
+    /* border: 2px solid; */
+}
+#table table th{
+    background-color: white;
+    font-size: 18px;
+    padding: 8px;
+}
+#table td{
+    background-color: rgba(53, 52, 52, 0.3);
+    padding: 10px;
+    text-align: center;
+    /* background-color: transparent; */
+}
+#msg{
+	background-color: white;
+	margin: 20px 545px 0px 545px;
+	height: 30px;
+    width: 230px;
+	background-color: rgba(53, 52, 52, 0.3);
+	color: white;
+}
+#msg h4{
+	text-align: center;
+	font-size: 20px;
+}
